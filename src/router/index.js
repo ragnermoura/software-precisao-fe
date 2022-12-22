@@ -5,6 +5,7 @@ import Register from '../views/dasboard/auth/Register.vue'
 import Sms from '../views/dasboard/auth/Code-sms.vue'
 import Recovery_Email from '../views/dasboard/auth/Recovery-email.vue'
 import Recovery_Pass from '../views/dasboard/auth/Recovery-pass.vue'
+import Plan from '../views/dasboard/payment/Plan.vue'
 
 
 const router = createRouter({
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/recovery-password',
       name: 'recovery-password',
       component: Recovery_Pass
+    },
+    {
+      path: '/plan',
+      name: 'plan',
+      component: Plan
     },
     
   ]
