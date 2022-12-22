@@ -1,0 +1,29 @@
+.background {
+    background-color: #2D42C8 !important;
+    width: 100vw;
+    height: 100vh;
+    flex: 1;
+    justify-content: center;
+}
+
+.inputArea{
+
+   margin-top: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+input{
+    background-color: #FAFAFA20 !important;
+    width: 51px !important;
+    height: 51px;
+    text-align: center;
+    border: 1px solid #FFF !important;
+    margin-left: 2%;
+    color:#FFF;
+    padding: auto;
+    border-radius: 8px;
+}
+
