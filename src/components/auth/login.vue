@@ -11,12 +11,12 @@
                     <div class="mt-4">
                         <div class="input-icons">
                             <i class="fa fa-envelope"></i>
-                            <input class="form-control form-control-lg" type="email" placeholder="email@dominio.com.br"
+                            <input class="form-control form-control-lg" autocomplete="off" type="email" placeholder="email@dominio.com.br"
                                 aria-label=".form-control-lg example">
                         </div>
                         <div class="input-icons">
                             <i class="fa fa-lock"></i>
-                            <input class="form-control form-control-lg mt-2" type="password"
+                            <input class="form-control form-control-lg mt-2" autocomplete="off" type="password"
                                 placeholder="Digite sua Senha" aria-label=".form-control-lg example">
                         </div>
 
@@ -24,7 +24,7 @@
                             <button class="btn btn-primary" type="button">Entrar</button>
                         </div>
                         <div class="text-area">
-                            <span class="esqueci-senha">Esqueci a senha |</span>
+                            <RouterLink to="recovery-email" class="esqueci-senha">Esqueci a senha |</RouterLink>
                             <RouterLink to="register" class="cadastro"> Ainda não sou cadastrado</RouterLink>
                         </div>
                         <p class="text-separate">ou acesse usando o <strong>app</strong></p>

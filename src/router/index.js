@@ -3,6 +3,8 @@ import HomeView from '../views/index.vue'
 import Login from '../views/dasboard/auth/login.vue'
 import Register from '../views/dasboard/auth/Register.vue'
 import Sms from '../views/dasboard/auth/Code-sms.vue'
+import Recovery_Email from '../views/dasboard/auth/Recovery-email.vue'
+import Recovery_Pass from '../views/dasboard/auth/Recovery-pass.vue'
 
 
 const router = createRouter({
@@ -27,6 +29,16 @@ const router = createRouter({
       path: '/code-sms',
       name: 'sms',
       component: Sms
+    },
+    {
+      path: '/recovery-email',
+      name: 'recovery-email',
+      component: Recovery_Email
+    },
+    {
+      path: '/recovery-password',
+      name: 'recovery-password',
+      component: Recovery_Pass
     },
     
   ]

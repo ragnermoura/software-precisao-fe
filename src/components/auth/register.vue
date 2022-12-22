@@ -67,6 +67,7 @@
 
             </div>
             <div class="col-md-7 segunda_parte elemento-1">
+                <RouterLink to="/" class="btn_voltar"> Voltar ao site</RouterLink>
                 <img src="../../assets/images/img2.svg" class="img-register" />
                 <p class="text-login mb-4 mt-5">Junte-se agora mesmo ao maior sistema de gestão para igrejas evangélicas. Somos a plataforma n° 1 em organização.  </p>
 
