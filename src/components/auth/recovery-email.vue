@@ -25,13 +25,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 segunda_parte elemento-1">
-                <RouterLink to="/" class="btn_voltar"> Voltar ao site</RouterLink>
-                <img src="../../assets/images/equipe.svg" class="img-recovery" />
-                <p class="text-login mb-3">Todos são peças importantes no trabalho em equipe, cada um representa uma pequena parcela do resultado final, quando um falha, todos devem se unir, para sua reconstrução.</p>
-                <div class="d-grid gap-2">
-                    <RouterLink to="register" class="btn btn-primary btn_cadastrar" type="button">Cadastre-se
-                    </RouterLink>
+            <div style="margin-top: -100px !important;">
+                <div class="col-md-7 segunda_parte elemento-1">
+                    <RouterLink to="/" class="btn_voltar"> Voltar ao site</RouterLink>
+                    <img src="../../assets/images/equipe.svg" class="img-recovery" />
+                    <p class="text-login mb-3">Todos são peças importantes no trabalho em equipe, cada um representa uma
+                        pequena parcela do resultado final, quando um falha, todos devem se unir, para sua reconstrução.
+                    </p>
+                    <div class="d-grid gap-2">
+                        <RouterLink to="register" class="btn btn-primary btn_cadastrar" type="button">Cadastre-se
+                        </RouterLink>
+                    </div>
                 </div>
             </div>
         </div>
