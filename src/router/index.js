@@ -12,6 +12,9 @@ import MainAdmin from '../views/dasboard/admin/Main.vue'
 import CadTeam from '../views/dasboard/admin/CadTeam.vue'
 import ListTeam from '../views/dasboard/admin/ListTeam.vue'
 import FunilVendas from '../views/dasboard/admin/FunilVendas.vue'
+import CadLead from '../views/dasboard/admin/CadLead.vue'
+import ViewListLead from '../views/dasboard/admin/ListLead.vue'
+import ViewOrganization from '../views/dasboard/admin/Organization.vue'
 
 
 const router = createRouter({
@@ -73,6 +76,21 @@ const router = createRouter({
       path: '/dashboard/admin/funil-vendas',
       name: 'admin-funil-vendas',
       component: FunilVendas
+    },
+    {
+      path: '/dashboard/admin/cad-lead',
+      name: 'admin-cad-lead',
+      component: CadLead
+    },
+    {
+      path: '/dashboard/admin/list-lead',
+      name: 'admin-list-lead',
+      component: ViewListLead
+    },
+    {
+      path: '/dashboard/admin/organization',
+      name: 'admin-organization',
+      component: ViewOrganization
     },
     
   ]

@@ -8,7 +8,7 @@
                     potenciais cliente.
                 </p>
                 <hr>
-                <div class="table-responsive" style="overflow: scroll;">
+                <div class="table-responsive">
 
                     <div href="#" class="card card-funil mb-3" style="width: 18rem;">
                         <div class="card-body">
@@ -24,7 +24,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -65,7 +65,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -86,7 +86,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -123,7 +123,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -143,7 +143,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -163,7 +163,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -199,7 +199,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -220,7 +220,7 @@
                                     <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-dollar"></i><small> R$500,00</small></h6>
+                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>

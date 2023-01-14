@@ -34,8 +34,12 @@
                                                 href="#Suporte" role="tab" aria-selected="false">Suporte Técnico <span class="badge text-bg-danger">4</span></a>
                                         </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                                href="#demographics" role="tab" aria-selected="false">Desenvolvimento</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link border-0" id="more-tab" data-bs-toggle="tab" href="#more"
-                                                role="tab" aria-selected="false">Outros</a>
+                                                role="tab" aria-selected="false">Recursos Humanos</a>
                                         </li>
                                     </ul>
                                     <div>

@@ -81,10 +81,16 @@
           <span class="menu-title">Lista de equipe</span>
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/dashboard/admin/organization">
+          <i class="mdi mdi-sitemap menu-icon"></i>
+          <span class="menu-title">Organograma</span>
+        </a>
+      </li>
       <li class="nav-item nav-category">Comercial</li>
       <li class="nav-item">
-        <a class="nav-link" href="">
-          <i class="mdi mdi-table-large menu-icon"></i>
+        <a class="nav-link" href="/dashboard/admin/cad-lead">
+          <i class="mdi mdi-plus menu-icon"></i>
           <span class="menu-title">Cadastro de Leads</span>
         </a>
       </li>
@@ -92,6 +98,12 @@
         <a class="nav-link" href="/dashboard/admin/funil-vendas">
           <i class="mdi mdi-filter menu-icon"></i>
           <span class="menu-title">Funil de Venda</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/dashboard/admin/list-lead">
+          <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+          <span class="menu-title">Lista de Leads</span>
         </a>
       </li>
 

@@ -1,0 +1,43 @@
+.card-dados{
+    border-top: 5px solid rgb(0, 30, 255);
+}
+
+.card-pessoal{
+    border-top: 5px solid rgb(20, 152, 62);
+  
+}
+
+.card-final{
+    border-top: 5px solid rgb(252, 184, 12);
+}
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 100px;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+}
+
+.camera{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 200px;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 13%;
+    color:#FFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    
+}
