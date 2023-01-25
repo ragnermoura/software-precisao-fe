@@ -7,7 +7,7 @@ import Recovery_Email from '../views/dasboard/auth/Recovery-email.vue'
 import Recovery_Pass from '../views/dasboard/auth/Recovery-pass.vue'
 import Plan from '../views/dasboard/payment/Plan.vue'
 
-//Dashboard
+//Dashboard Admin
 import MainAdmin from '../views/dasboard/admin/Main.vue'
 import CadTeam from '../views/dasboard/admin/CadTeam.vue'
 import ListTeam from '../views/dasboard/admin/ListTeam.vue'
@@ -15,6 +15,10 @@ import FunilVendas from '../views/dasboard/admin/FunilVendas.vue'
 import CadLead from '../views/dasboard/admin/CadLead.vue'
 import ViewListLead from '../views/dasboard/admin/ListLead.vue'
 import ViewOrganization from '../views/dasboard/admin/Organization.vue'
+
+//Dashboard Client
+import DashboardClient from '../views/dasboard/client/Main.vue'
+
 
 
 const router = createRouter({
@@ -91,6 +95,11 @@ const router = createRouter({
       path: '/dashboard/admin/organization',
       name: 'admin-organization',
       component: ViewOrganization
+    },
+    {
+      path: '/dashboard/client/admin',
+      name: 'admin-client',
+      component: DashboardClient
     },
     
   ]

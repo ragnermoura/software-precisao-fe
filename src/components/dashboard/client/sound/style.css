@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* Vertical */
+.slider {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-color {
+  width: 400px !important;
+  background: rgb(94, 227, 9);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 227, 9, 1) 0%,
+    rgba(88, 121, 9, 1) 25%,
+    rgba(154, 160, 6, 1) 47%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.barras{
+    width: 100px !important;
+    border-radius: 5px;
+}
+
+.slider .container-slider {
+  width: 5%;
+  transform: rotate(270deg);
+  margin-top: 300px;
+  margin-left: -10px;
+}
+.slider .container-slider input[type="range"] {
+  -webkit-appearance: none;
+  width: 400px !important;
+  background-color: rgb(5, 5, 5);
+  height: 3px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider .container-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transform: rotate(90deg);
+  background-image: url("../../../../assets/images/slide.png");
+}
+
+/* Horizontal */
+
+.slider-horizontal {
+  width: 5vw;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -23px;
+}
+
+.tela-db {
+  width: 90px !important;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../../assets/images/backgroundPanel.jpg");
+  background-size: 150px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  color: #ffffff !important;
+  padding: 10px;
+}
+
+.slider-horizontal .container-slider-horizontal {
+  width: 100%;
+  transform: rotate(180deg);
+  margin-top: 10px;
+}
+.slider-horizontal .container-slider-horizontal input[type="range"] {
+  -webkit-appearance: none;
+  width: 90px !important;
+  background-color: #34b1aa;
+  height: 3px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider-horizontal
+  .container-slider-horizontal
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  transform: rotate(0deg);
+  background-image: url("../../../../assets/images/balance.png");
+}
+
+/* Cards */
+
+.name_entrada {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 80%;
+  font-weight: 700;
+}
+
+.card-slide {
+  background-color: #2f2f30;
+}
+
+.area-btn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: -30px;
+}
+
+.mute {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dc3545 !important;
+  font-size: 15px !important;
+  text-align: center;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex;
+  font-weight: 900;
+  color: #fff !important;
+}
+
+.solo {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffaf00 !important;
+  font-size: 15px !important;
+  text-align: center;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex;
+  font-weight: 900;
+  color: #fff !important;
+}
