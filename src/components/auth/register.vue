@@ -1,5 +1,5 @@
 <template id="Compregister">
-    <div class="container-fluid">
+   
         <div class="row">
             <div class="col-md-5 primeira_parte">
                 <img src="../../assets/images/logo.svg" class="img-fluid logo" alt="">
@@ -73,7 +73,7 @@
 
             </div>
         </div>
-    </div>
+
 </template>
 <script>
 import QrcodeVue from 'qrcode.vue'
