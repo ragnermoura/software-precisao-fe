@@ -12,19 +12,19 @@
 
                     <div href="#" class="card card-funil mb-3" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-primary fa fa-circle"></i></h5>
+                            <h5 class="card-title lead-title"><i class="fa fa-building"></i> Igreja Batista <i
+                                    class="text-primary circle-lead fa fa-circle"></i></h5>
                             <div class="row">
                                 <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
+                                    <h6 class="lead-name"><img src="../../../../assets/images/faces/face16.jpg" class="img-lead" width="30"
+                                            style="border-radius: 30px;" alt="image"  /><small> Evandro Sales</small>
                                     </h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
+                                    <h6 class="status-lead"><i class="fa fa-tag"></i><small> Lead</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
+                                    <h6 class="valor-lead" style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -53,40 +53,19 @@
 
                     <div href="#" class="card card-funil-prosp mb-3" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-success fa fa-circle"></i></h5>
+                            <h5 class="card-title lead-title"><i class="fa fa-building"></i> Igreja Batista <i
+                                    class="text-success circle-lead fa fa-circle"></i></h5>
                             <div class="row">
                                 <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
+                                    <h6 class="lead-name"><img src="../../../../assets/images/faces/face16.jpg" class="img-lead" width="30"
+                                            style="border-radius: 30px;" alt="image"  /><small> Evandro Sales</small>
                                     </h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
+                                    <h6 class="status-lead"><i class="fa fa-tag"></i><small> Prosp.</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div href="#" class="card card-funil-prosp mb-3" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-success fa fa-circle"></i></h5>
-                            <div class="row">
-                                <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
-                                    </h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
+                                    <h6 class="valor-lead" style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
@@ -111,64 +90,26 @@
 
                     <div href="#" class="card card-funil-neg mb-3" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-warning fa fa-circle"></i></h5>
+                            <h5 class="card-title lead-title"><i class="fa fa-building"></i> Igreja Batista <i
+                                    class="text-warning circle-lead fa fa-circle"></i></h5>
                             <div class="row">
                                 <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
+                                    <h6 class="lead-name"><img src="../../../../assets/images/faces/face16.jpg" class="img-lead" width="30"
+                                            style="border-radius: 30px;" alt="image"  /><small> Evandro Sales</small>
                                     </h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
+                                    <h6 class="status-lead"><i class="fa fa-tag"></i><small> Neg.</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
+                                    <h6 class="valor-lead" style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div href="#" class="card card-funil-neg mb-3" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-warning fa fa-circle"></i></h5>
-                            <div class="row">
-                                <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
-                                    </h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div href="#" class="card card-funil-neg mb-3" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-warning fa fa-circle"></i></h5>
-                            <div class="row">
-                                <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
-                                    </h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                 
+                 
 
                 </div>
             </div>
@@ -187,40 +128,19 @@
                 <div class="table-responsive">
                     <div href="#" class="card card-funil-fechado mb-3" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-info fa fa-circle"></i></h5>
+                            <h5 class="card-title lead-title"><i class="fa fa-building"></i> Igreja Batista <i
+                                    class="text-info circle-lead fa fa-circle"></i></h5>
                             <div class="row">
                                 <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
+                                    <h6 class="lead-name"><img src="../../../../assets/images/faces/face16.jpg" class="img-lead" width="30"
+                                            style="border-radius: 30px;" alt="image"  /><small> Evandro Sales</small>
                                     </h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
+                                    <h6 class="status-lead"><i class="fa fa-tag"></i><small> Venda</small></h6>
                                 </div>
                                 <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div href="#" class="card card-funil-fechado mb-3" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="fa fa-building"></i> Igreja Batista <i
-                                    class="text-info fa fa-circle"></i></h5>
-                            <div class="row">
-                                <div style="margin-left: -8px;" class="col-12">
-                                    <h6><img src="../../../../assets/images/faces/face16.jpg" width="30"
-                                            style="border-radius: 30px;" alt="image" /><small> Evandro Sales</small>
-                                    </h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6><i class="fa fa-tag"></i><small> Lead</small></h6>
-                                </div>
-                                <div class="col-6">
-                                    <h6 style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
+                                    <h6 class="valor-lead" style="font-size: 15px; margin-left: -15px;"><i class="fa fa-dollar"></i><small> R$600,00</small></h6>
                                 </div>
 
                             </div>

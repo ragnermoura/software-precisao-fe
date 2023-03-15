@@ -55,7 +55,7 @@
                                 </div>
 
                                 <!-- Tab de Som -->
-                                <TabSound />
+                             
 
                             </div>
                         </div>

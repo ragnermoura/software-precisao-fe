@@ -9,7 +9,7 @@
       </li>
       <li class="nav-item nav-category">Para Você</li>
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="/dashboard/admin/agenda">
           <i class="mdi mdi-calendar menu-icon"></i>
           <span class="menu-title">Agenda</span>
         </a>
@@ -17,31 +17,23 @@
 
       <li class="nav-item nav-category">Financeiro</li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
+        <a class="nav-link" href="/dashboard/admin/entradas">
           <i class="menu-icon mdi mdi-finance"></i>
           <span class="menu-title">Entradas</span>
-          <i class="menu-arrow"></i>
         </a>
-        <div class="collapse" id="ui-basic">
-          <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="#">Assinaturas</a></li>
-
-          </ul>
-        </div>
+       
+       
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
+        <a class="nav-link" href="/dashboard/admin/saidas">
           <i class="menu-icon mdi mdi-trending-down"></i>
           <span class="menu-title">Despesas</span>
-          <i class="menu-arrow"></i>
         </a>
-        <div class="collapse" id="ui-basic">
-          <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="#">Assinaturas</a></li>
-
-          </ul>
-        </div>
+       
+       
       </li>
+   
       <li class="nav-item">
         <a class="nav-link" href="">
           <i class="mdi mdi-minus menu-icon"></i>
@@ -81,12 +73,7 @@
           <span class="menu-title">Lista de equipe</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/dashboard/admin/organization">
-          <i class="mdi mdi-sitemap menu-icon"></i>
-          <span class="menu-title">Organograma</span>
-        </a>
-      </li>
+      
       <li class="nav-item nav-category">Comercial</li>
       <li class="nav-item">
         <a class="nav-link" href="/dashboard/admin/cad-lead">
@@ -104,6 +91,12 @@
         <a class="nav-link" href="/dashboard/admin/list-lead">
           <i class="mdi mdi-format-list-bulleted menu-icon"></i>
           <span class="menu-title">Lista de Leads</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/dashboard/admin/list-lead">
+          <i class="mdi mdi-account-group menu-icon"></i>
+          <span class="menu-title">Lista de Clientes</span>
         </a>
       </li>
 

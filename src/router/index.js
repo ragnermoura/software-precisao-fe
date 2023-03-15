@@ -15,9 +15,15 @@ import FunilVendas from '../views/dasboard/admin/FunilVendas.vue'
 import CadLead from '../views/dasboard/admin/CadLead.vue'
 import ViewListLead from '../views/dasboard/admin/ListLead.vue'
 import ViewOrganization from '../views/dasboard/admin/Organization.vue'
+import AgendaAdmin from '../views/dasboard/admin/Agenda.vue'
+import EntradasAdmin from '../views/dasboard/admin/Entradas.vue'
+import SaidaAdmin from '../views/dasboard/admin/Despesas.vue'
+
 
 //Dashboard Client
 import DashboardClient from '../views/dasboard/client/Main.vue'
+import AgendaClient from '../views/dasboard/client/Agenda.vue'
+import StudioClient from '../views/dasboard/client/Studio.vue'
 
 
 
@@ -101,6 +107,33 @@ const router = createRouter({
       name: 'admin-client',
       component: DashboardClient
     },
+    {
+      path: '/dashboard/admin/agenda',
+      name: 'admin-agenda',
+      component: AgendaAdmin
+    },
+    {
+      path: '/dashboard/admin/entradas',
+      name: 'admin-entrada',
+      component: EntradasAdmin
+    },
+    {
+      path: '/dashboard/admin/saidas',
+      name: 'admin-saida',
+      component: SaidaAdmin
+    },
+    {
+      path: '/dashboard/client/agenda',
+      name: 'client-agenda',
+      component: AgendaClient
+    },
+    
+    {
+      path: '/dashboard/client/studio',
+      name: 'client-studio',
+      component: StudioClient
+    },
+    
     
   ]
 })

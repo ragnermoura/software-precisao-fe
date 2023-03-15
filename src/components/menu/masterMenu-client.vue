@@ -9,9 +9,18 @@
       </li>
       <li class="nav-item nav-category">Para Você</li>
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="/dashboard/client/agenda">
           <i class="mdi mdi-calendar menu-icon"></i>
           <span class="menu-title">Agenda</span>
+        </a>
+      </li>
+
+      <li class="nav-item nav-category">Secretaria</li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/dashboard/admin/cad-team">
+          <i class="mdi mdi-account-group menu-icon"></i>
+          <span class="menu-title">Cadastro de Membro</span>
         </a>
       </li>
 
@@ -141,12 +150,7 @@
         </a>
       </li>
       <li class="nav-item nav-category">Empresa</li>
-      <li class="nav-item">
-        <a class="nav-link" href="/dashboard/admin/cad-team">
-          <i class="mdi mdi-account-group menu-icon"></i>
-          <span class="menu-title">Nosso Time</span>
-        </a>
-      </li>
+     
       <li class="nav-item">
         <a class="nav-link" href="/dashboard/admin/list-team">
           <i class="mdi mdi-format-list-bulleted menu-icon"></i>
