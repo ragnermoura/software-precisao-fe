@@ -2,11 +2,12 @@
 
 .footer{
     color: #c1c1cc;
+    background-color: #c1c1cc00;
+    border: none;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 12px;
-    position:absolute;
-    bottom: 0;
-    margin-left: 30px;
-
+    bottom: 0 !important;
+    width: 100%;
+    position: fixed;
 }
