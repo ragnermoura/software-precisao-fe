@@ -1,9 +1,9 @@
 <template id="Complogin">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-5 primeira_parte">
-                <img src="../../assets/images/logo.svg" class="img-fluid logo" alt="">
-                <div class="cotainer login-area">
+    <div class="row">
+        <div class="col-md-4 primeira_parte">
+            <img src="../../assets/images/logo.svg" class="img-fluid logo" alt="">
+
+            <div class="cotainer login-area">
                     <h3 class="text-left mt-3 boas-vindas-texto">Olá, bem-vindo!</h3>
                     <h5 class="text-left  sub-texto">Prepare tudo para começarmos :)</h5>
                     <p class="mensagem mt-3"><i class="fa fa-check ml-3"></i> Deslogado com sucesso</p>
@@ -32,9 +32,10 @@
                     </div>
                 </div>
 
-            </div>
-            <div class="col-md-7 segunda_parte elemento-1">
-                <RouterLink to="/" class="btn_voltar"> Voltar ao site</RouterLink>
+            
+        </div>
+        <div class="col-md-8 segunda_parte elemento-1">
+            <RouterLink to="/" class="btn_voltar"> Voltar ao site</RouterLink>
                 <img src="../../assets/images/img1.svg" class="img" />
                 <p class="text-login mb-3">Chegou a hora de otimizarmos o seu tempo. O Software Precisão deixa as
                     tarefas complexas da sua igreja mais simples, com rapidez e eficiência. </p>
@@ -42,7 +43,7 @@
                     <RouterLink to="register" class="btn btn-primary btn_cadastrar" type="button">Cadastre-se
                     </RouterLink>
                 </div>
-            </div>
+        
         </div>
     </div>
 </template>
@@ -60,6 +61,7 @@ export default {
     components: {
         QrcodeVue,
     }
+
 }
 </script>
 <style>

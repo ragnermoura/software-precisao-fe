@@ -1,6 +1,6 @@
 <template id="login">
     <Complogin />
-    <Footer />
+   
 </template>
 <script>
 import Complogin from '../../../components/auth/login.vue'
