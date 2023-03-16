@@ -4,6 +4,7 @@ import router from './router'
 import { createApp, h } from 'vue'
 
 
+
 import './assets/css/style.css'
 
 const app = createApp({
@@ -11,4 +12,5 @@ const app = createApp({
 });
 
 app.use(router)
+
 app.mount('#app')
