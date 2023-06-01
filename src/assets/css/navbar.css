@@ -1,0 +1,174 @@
+.TopNavbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.224) !important; /* Aqui você pode ajustar a transparência */
+}
+
+.logo {
+  width: 200px !important;
+  margin-left: 10px;
+}
+ul {
+    justify-content: flex-end;
+    
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-top: 20px;
+
+}
+
+.nav-link:hover{
+    color: #f2750f !important;
+}
+
+.text-login{
+    text-transform: uppercase;
+}
+
+.btn-login{
+    border-radius: 50px;
+    background-color: #f2750f;
+    border: none;
+    width: 120px;
+    border: 3px solid #ae540a;
+    height: 40px;
+}
+
+.btn-login:hover{
+    border-radius: 50px;
+    background-color: #f2750f;
+    border: none;
+    border: 3px solid #ae540a;
+    height: 40px;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
+ 
+}
+
+
+.titleArea{
+    margin-top: 13%;
+}
+
+.title{
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+.idioma{
+    font-size: 9px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.idiomaEscolhino{
+    font-size: 9px;
+    color: #1be9c3;
+    margin-left: 15px;
+}
+
+
+
+.subtitle{
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bandeira{
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas com largura máxima de 768 pixels */
+  .logo {
+    width: 200px !important;
+  }
+
+  .btn-login{
+    border-radius: 50px;
+    background-color: #f2750f;
+    border: none;
+    width: 120px;
+    margin-left: -10px !important;
+}
+
+.titleArea{
+    margin-top: 28%;
+}
+
+.title{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.subtitle{
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+}
+
+.textIgreja{
+    color: #f2750f;
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas com largura máxima de 480 pixels */
+  .logo {
+    width: 200px !important;
+  }
+
+  .btn-login{
+    border-radius: 50px;
+    background-color: #f2750f;
+    border: none;
+    width: 120px;
+    margin-left: -5px !important;
+    margin-top: 5px;
+    margin-bottom: 10px ;
+}
+
+.titleArea{
+    margin-top: 28%;
+}
+
+.title{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.subtitle{
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+}
+
+
