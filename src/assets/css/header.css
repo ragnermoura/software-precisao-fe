@@ -10,8 +10,8 @@
 
 .faixa{
   width: 100%;
-  height: 150px;
-  background-color: #4f47f6;
+  height: 110px;
+  background-color: #260b52;
   margin-top: -35px;
 }
 
@@ -21,6 +21,24 @@
   opacity: 0.10;
   background-repeat:repeat-x;
   position: relative;
+}
+
+.img-parceiro{
+  margin-top: 18%;
+  width: 150px;
+}
+
+.title-faixa{
+  font-size: 20px !important;
+  color: #fff;
+  margin-bottom: -10px;
+  font-weight: 300;
+}
+
+
+.newslaster{
+  border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
 }
 
 .title-faixa{

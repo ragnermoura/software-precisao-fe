@@ -1,0 +1,13 @@
+.card{
+    border: 3px solid rgb(28, 8, 61);
+   
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgb(28, 8, 61);;
+}
+
+.card-title{
+    color: #fff;
+    text-align: center;
+}
+

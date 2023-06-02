@@ -2,7 +2,13 @@
   position: fixed !important;
   width: 100%;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.224) !important; /* Aqui você pode ajustar a transparência */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.209
+  ) !important; /* Aqui você pode ajustar a transparência */
+  transition: background-color 0.3s ease !important;
 }
 
 .logo {
@@ -10,39 +16,49 @@
   margin-left: 10px;
 }
 ul {
-    justify-content: flex-end;
-    
+  justify-content: flex-end;
 }
 
 .navbar-nav {
-    margin-left: auto;
-    margin-top: 20px;
-
+  margin-left: auto;
+  margin-top: 20px;
 }
 
-.nav-link:hover{
-    color: #f2750f !important;
+.nav-link:hover {
+  color: #f2750f !important;
 }
 
-.text-login{
-    text-transform: uppercase;
+.text-login {
+  text-transform: uppercase;
 }
 
-.btn-login{
-    border-radius: 50px;
-    background-color: #f2750f;
-    border: none;
-    width: 120px;
-    border: 3px solid #ae540a;
-    height: 40px;
+.faixa-meio {
+  background-color: rgba(254, 245, 233, 0.298);
 }
 
-.btn-login:hover{
-    border-radius: 50px;
-    background-color: #f2750f;
-    border: none;
-    border: 3px solid #ae540a;
-    height: 40px;
+.image-toten {
+  width: 200px;
+}
+
+.image-toten:hover {
+  margin-top: 10px !important;
+}
+
+.btn-login {
+  border-radius: 50px;
+  background-color: #f2750f;
+  border: none;
+  width: 120px;
+  border: 3px solid #ae540a;
+  height: 40px;
+}
+
+.btn-login:hover {
+  border-radius: 50px;
+  background-color: #f2750f;
+  border: none;
+  border: 3px solid #ae540a;
+  height: 40px;
 }
 
 .nav-link {
@@ -50,48 +66,82 @@ ul {
   margin-left: 15px;
   font-weight: 200;
   text-transform: uppercase;
- 
 }
 
-
-.titleArea{
-    margin-top: 13%;
+.text-title {
+  font-size: 35px;
+  font-weight: 600 !important;
+  color: rgb(28, 8, 61);
+  text-transform: uppercase;
 }
 
-.title{
-    color: #fff;
-    font-size: 65px;
-    text-transform: uppercase;
-    font-weight: 500;
+.text-subtitle {
+  font-size: 20px;
+  font-weight: 300 !important;
+  color: rgb(54, 7, 86);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-
-
-.idioma{
-    font-size: 9px;
-    color: #fff;
-    margin-left: 15px;
+.titleArea {
+  margin-top: 13%;
 }
 
-.idiomaEscolhino{
-    font-size: 9px;
-    color: #1be9c3;
-    margin-left: 15px;
+.title {
+  color: #fff;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
-
-
-.subtitle{
-    color: #fff;
-    font-weight: 200;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.cheks {
+  color: rgb(28, 8, 61);
 }
 
-.bandeira{
-    width: 25px;
-    margin-left: 10px;
-    margin-top: 5px;
+.img-dash{
+  width: 500px;
+}
+
+.cheks:hover {
+  color: rgb(20, 198, 121);
+}
+
+.text-simple {
+  font-weight: 300;
+  text-align: justify;
+}
+
+.divisor {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.idioma {
+  font-size: 9px;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.idiomaEscolhino {
+  font-size: 9px;
+  color: #1be9c3;
+  margin-left: 15px;
+}
+
+.subtitle {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.bandeira {
+  width: 25px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
@@ -100,38 +150,37 @@ ul {
     width: 200px !important;
   }
 
-  .btn-login{
+  .btn-login {
     border-radius: 50px;
     background-color: #f2750f;
     border: none;
     width: 120px;
     margin-left: -10px !important;
-}
+  }
 
-.titleArea{
+  .titleArea {
     margin-top: 28%;
-}
+  }
 
-.title{
+  .title {
     color: #fff;
     font-size: 40px;
     margin-top: 10px;
     text-transform: uppercase;
     font-weight: 500;
-}
+  }
 
-.subtitle{
+  .subtitle {
     color: #fff;
     font-weight: 200;
     letter-spacing: 2px;
     font-size: 20px;
     text-transform: uppercase;
+  }
 }
 
-}
-
-.textIgreja{
-    color: #f2750f;
+.textIgreja {
+  color: #f2750f;
 }
 
 @media (max-width: 480px) {
@@ -140,35 +189,33 @@ ul {
     width: 200px !important;
   }
 
-  .btn-login{
+  .btn-login {
     border-radius: 50px;
     background-color: #f2750f;
     border: none;
     width: 120px;
     margin-left: -5px !important;
     margin-top: 5px;
-    margin-bottom: 10px ;
-}
+    margin-bottom: 10px;
+  }
 
-.titleArea{
+  .titleArea {
     margin-top: 28%;
-}
+  }
 
-.title{
+  .title {
     color: #fff;
     font-size: 40px;
     margin-top: 10px;
     text-transform: uppercase;
     font-weight: 500;
-}
+  }
 
-.subtitle{
+  .subtitle {
     color: #fff;
     font-weight: 200;
     letter-spacing: 2px;
     font-size: 20px;
     text-transform: uppercase;
+  }
 }
-}
-
-
