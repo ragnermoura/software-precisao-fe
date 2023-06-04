@@ -1,13 +1,33 @@
-.card{
-    border: 3px solid rgb(28, 8, 61);
-   
-    width: 200px;
-    border-radius: 30px;
-    background-color: rgb(28, 8, 61);;
+.card {
+  border: 3px solid rgb(28, 8, 61);
+
+  width: 250px;
+  border-radius: 20px;
+  background-color: #260b52;
 }
 
-.card-title{
-    color: #fff;
-    text-align: center;
+.card-title {
+  color: #fff;
+  text-align: center;
 }
 
+.img-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img-modulo {
+  width: 50px;
+}
+
+.card-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.card-subtitle {
+  color: rgb(20, 198, 121);
+  text-align: center;
+}

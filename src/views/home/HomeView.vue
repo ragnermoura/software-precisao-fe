@@ -51,7 +51,7 @@
       </div>
       <div class="col-md-6 mt-5">
         <img
-          src="../../assets/images/dashboard.gif"
+          src="../../assets/images/dashboard.png"
           class="img-fluid img-dash"
           alt=""
           srcset=""
@@ -62,12 +62,10 @@
           <Card />
         </div>
       </div>
-   
+    </div>
+    <img src="../../assets/images/paralax.png" class="divisor" alt="" />
 
-      <div>
-        <img src="../../assets/images/paralax.png" class="divisor" alt="" />
-      </div>
-
+    <div class="row col-md-12 mt-4" style="padding: 2%">
       <div class="col-md-6 mt-5">
         <h1 class="text-title">Nós cuidamos da sua igreja</h1>
         <h4 class="text-subtitle">Soluções completas +</h4>
@@ -124,6 +122,77 @@
           <h6 class="text-center">Sensor de Energia</h6>
         </div>
       </div>
+      <div class="col-md-12 mt-5 text-center">
+        <h1 class="text-title">
+          <i class="fa fa-circle text-danger"></i> Transmissões de cultos ao
+          vivo
+        </h1>
+        <h4 class="text-subtitle">Com maior alcance multiplo</h4>
+      </div>
+      <div class="col-md-8">
+        <img
+          src="../../assets/images/live.png"
+          class="img-fluid img-live"
+          alt=""
+        />
+      </div>
+
+      <div class="col-md-4">
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i
+          ><strong> Transmissões em todas as redes sociais</strong>
+        </p>
+
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Controle de cometários</strong>
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Edição de Layouts</strong>
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i
+          ><strong> Gerador de Qr-Code para Dízimos e Ofertas</strong>
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Relatórios de audiencia</strong>
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Comparativos de alcance</strong>
+        </p>
+
+        <ButtonSecondary />
+      </div>
+    </div>
+
+    <div class="faixa mt-4" style="height: 130px">
+      <div class="container">
+        <!-- <h5 class="title-faixa"> Nossos parceiros e integradores</h5> -->
+        <div class="row text-center">
+          <div class="col-md-3 mt-3">
+            <h1 class="number">277+</h1>
+            <h5 class="description">Igrejas conectadas</h5>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h1 class="number">2K</h1>
+            <h5 class="description">Usuários ativos</h5>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h1 class="number">24h</h1>
+            <h5 class="description">Suporte</h5>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h1 class="number">120+</h1>
+            <h5 class="description">Colaboradores</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 mt-5 text-center">
+      <h1 class="text-title">Igrejas que usam</h1>
+      <h4 class="text-subtitle">Conheça nosso </h4>
+    </div>
+    <div class="row col-md-12">
+      <div class=""></div>
     </div>
   </div>
 </template>
