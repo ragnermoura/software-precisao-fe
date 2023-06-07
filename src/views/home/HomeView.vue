@@ -1,8 +1,11 @@
 <template id="Home">
   <div>
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
     <Navbar />
     <Header />
-    <div class="row col-md-12 mt-4" style="padding: 2%">
+    <div class="row col-md-12 mt-4" id="quemsomos" style="padding: 2%">
       <div class="col-md-6">
         <h1 class="text-title">
           O que é o <span class="textIgreja">Software Precisão </span>?
@@ -187,20 +190,273 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 mt-5 text-center">
-      <h1 class="text-title">Igrejas que usam</h1>
-      <h4 class="text-subtitle">Conheça nosso </h4>
+    <div class="row col-md-12 mt-5" style="padding: 2%">
+      <div class="col-md-6">
+        <h1 class="text-title">
+          Customize sua plataforma?
+        </h1>
+        <h4 class="text-subtitle">Monte tudo do seu jeito</h4>
+        <p class="mt-4 text-simple">
+          Com o Software Precisão, você tem total liberdade para customizar a plataforma de acordo com as necessidades da sua igreja evangélica. Nós entendemos que cada congregação é única e possui suas próprias preferências e requisitos específicos. Por isso, oferecemos uma ampla gama de recursos e opções de personalização para que você possa moldar a plataforma de acordo com as suas preferências.
+        </p>
+        <p class="mt-2 text-simple">
+          Com o nosso software, você pode:
+        </p>
+
+        
+          <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Customizar relatórios:</strong> -
+          Tenha relatórios personalizados que atendam às necessidades da sua igreja. Escolha os campos, filtros e informações que deseja exibir e crie relatórios com a aparência e o formato que melhor se adequem ao seu estilo.
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Escolher cores e design:</strong> -
+          Dê uma identidade visual única ao seu software. Personalize as cores, logotipo e elementos visuais para refletir a identidade da sua igreja, proporcionando uma experiência familiar e acolhedora aos usuários.
+        </p>
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Adaptar o cadastro de membros:</strong> -
+          Cada igreja tem suas próprias informações e campos específicos que deseja rastrear. Com o Software Precisão, você pode personalizar os campos de cadastro de membros de acordo com as suas necessidades, permitindo que você capture as informações relevantes para a sua igreja.
+        </p>
+       
+        
+      </div>
+      <div class="col-md-6 mt-5" style="margin-top: 7% !important;">
+       
+        <p class="mt-3 text-simple">
+          <i class="fa fa-check"></i><strong> Configurar recursos e funcionalidades:</strong> -
+          Escolha quais recursos e funcionalidades são relevantes para a sua igreja e habilite-os de acordo com as suas preferências. Tenha controle total sobre o que é exibido e como as informações são gerenciadas.
+        </p>
+        <p class="mt-3 text-simple">
+          Nosso objetivo é fornecer uma plataforma flexível e adaptável que atenda às necessidades únicas da sua igreja. Com o Software Precisão, você está no controle e pode personalizar cada aspecto da plataforma para se adequar à sua visão e estilo de trabalho.
+        </p>
+        <p class="mt-3 text-simple" style="z-index: 99; position: absolute;">
+          Entre em contato conosco hoje mesmo para saber mais sobre como o Software Precisão pode ajudar a sua igreja evangélica e como você pode aproveitar ao máximo a personalização disponível. Estamos ansiosos para ajudá-lo a construir uma experiência única e relevante para sua congregação!
+        </p>
+
+        <img src="../../assets/images/custom.png" class="img-fluid" style="width: auto; height: 200px; z-index: 1; margin-top: 95px; margin-left: 18%;" >
+      </div>
     </div>
-    <div class="row col-md-12">
-      <div class=""></div>
+    
+
+    <div class="col-md-12 mt-5 text-center" id="planos">
+      <h1 class="text-title">Nossos Planos</h1>
+      <h4 class="text-subtitle">Confira preços </h4>
     </div>
+    <div class="row col-md-12 mt-5 area-price">
+      <div class="col-md-3">  
+        <div class="price-box">
+        <div class="card-body">
+          <div class="img-area">
+            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+          </div>
+          
+          <h5 class="card-title price-title">Secretaria</h5>
+          <h5 class="old-price">R$ 144,99</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary price"><span class="simbol">R$</span> 129,95<span class="simbol"> /mês</span></h6>
+          <hr class="line">
+          <p class="card-text text-price">
+           <p class="card-text text-price"><i class="fa fa-check"></i><strong> Cadastro de membros</strong></p>
+           <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Gerenciamento de eventos e aniversariantes</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Disparos de avisos para membros por email</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Gestão de ministérios e lideres</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Cartas, carteirinhas e certificados (Gerais)</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Controle de Visitantes com Gestão</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Gestão de células e Grupos de oração</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Palavra Diária em disparos</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Relatórios em tempo Real</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Controle de presença ministerial</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Organização de Mídias sociais</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Controle de Património</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Gestão de alimentos e roupas para doação</strong></p>
+            <hr class="line">
+           
+        
+          </p>
+          <div>
+        <button type="button" class="btn btnSecondary">comprar</button>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" style="margin-left: 80px;">  
+        <div class="price-box-tesouraria">
+        <div class="card-body">
+          <div class="img-area">
+            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+          </div>
+          
+          <h5 class="card-title price-title-tesouraria">Tesouraria</h5>
+          <h5 class="old-price">R$ 209,98</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary price"><span class="simbol">R$</span> 189,99<span class="simbol"> /mês</span></h6>
+          <hr class="line">
+          <p class="card-text text-price">
+           <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Gestão de Dízimos e Ofertas</strong></p>
+           <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Gestão de contas a pagar</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Gestão de doações em dinheiro</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Relatórios em tempo Real</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Simulação de gastos</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Extrato</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Previsões e realizações</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Gestão de documentos e notas</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Simulador de eventos</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Controle de saídas</strong></p>
+            <hr class="line">
+            <p class="card-text text-price-tesouraria"><i class="fa fa-check"></i><strong> Gestão de fornecedores</strong></p>
+            <hr class="line">
+            
+          </p>
+          <button type="button" class="btn btnSecondary">comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" style="margin-left: 80px;">  
+        <div class="price-box">
+        <div class="card-body">
+          <div class="img-area">
+            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+          </div>
+          
+          <h5 class="card-title price-title">Ensino & EBD</h5>
+          <h5 class="old-price">R$ 114,92</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary price"><span class="simbol">R$</span> 98,50<span class="simbol"> /mês</span></h6>
+          <hr class="line">
+          <p class="card-text text-price">
+           <p class="card-text text-price"><i class="fa fa-check"></i><strong> Cadastro de alunos</strong></p>
+           <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Controle de presença</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Gestão de matérias</strong></p>
+            <hr class="line">
+            <p class="card-text" style="color: rgb(20, 198, 121);"><i class="fa fa-check"></i><strong> Área do Professor</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Lançamento de notas</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Organização de plano de estudos</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Lançamento de notas</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Ambiente do Aluno</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Relatório de desempenho</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Cadastro de classes e turmas</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Aulas on-line</strong></p>
+            <hr class="line">
+        
+          </p>
+          <button type="button" class="btn btnSecondary">comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mt-3">  
+        <div class="price-box">
+        <div class="card-body">
+          <div class="img-area">
+            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+          </div>
+          
+          <h5 class="card-title price-title"><i class="fa fa-circle text-danger"></i> Stream</h5>
+          <h5 class="old-price">R$ 389,98</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary price"><span class="simbol">R$</span> 249,98<span class="simbol"> /mês</span></h6>
+          <hr class="line">
+          <p class="card-text text-price">
+           <p class="card-text text-price"><i class="fa fa-check"></i><strong> Transmissão de cultos nas redes sociais</strong></p>
+           <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Relatório de visualizações</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Integração de Som e iluminação</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Criação de artes para rede sociais</strong></p>
+            <hr class="line">
+           
+        
+          </p>
+          <button type="button" class="btn btnSecondary">comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mt-3" style="margin-left: 80px;">  
+        <div class="price-box">
+        <div class="card-body">
+          <div class="img-area">
+            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+          </div>
+          
+          <h5 class="card-title price-title">Quer mais de um?</h5>
+          <h5 class="old-price">R$ 500,00</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary price">Fale com o especialista.</h6>
+          <hr class="line">
+          <p class="card-text text-price">
+           <p class="card-text text-price"><i class="fa fa-check"></i><strong> Combinar módulos</strong></p>
+           <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Integração completa</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Importar dados de outros softwares</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Comprar produtos IoT</strong></p>
+            <hr class="line">
+            <p class="card-text"><i class="fa fa-check"></i><strong> Customizar Totem</strong></p>
+            <hr class="line">
+            
+           
+        
+          </p>
+          <button type="button" class="btn btnSecondary">Falar com especialista</button>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="faixa-contato mt-5" id="contato">
+      <div class="col-md-12 mt-5 text-center" style="padding-top: 2%;">
+      <h1 class="text-title">Fale conosco</h1>
+      <h4 class="text-subtitle">Converse com nossos especialistas </h4>
+    </div>
+      <div class="container">
+<div class=" row col-md-12">
+  <div class="col-md-6">
+    <img src="../../assets/images/contato_foguete.png" class="img-fluid" alt="">
   </div>
+  <div class="col-md-6">
+    <Formulario/>
+  </div>
+</div>
+        </div>
+    </div>
+    <Footer/>
+  </div>
+
+  
 </template>
 <script>
 import Navbar from "../../components/website/navbar/index.vue";
 import Header from "../../components/website/header/index.vue";
 import Card from "../../components/website/card/index.vue";
 import ButtonSecondary from "../../components/website/buttons/secondary.vue";
+import Formulario from "../../components/website/form/index.vue";
+import Footer from '../../components/website/footer/index.vue'
 export default {
   name: "Home",
   components: {
@@ -208,6 +464,8 @@ export default {
     Header,
     Card,
     ButtonSecondary,
+    Formulario,
+    Footer
   },
 };
 </script>

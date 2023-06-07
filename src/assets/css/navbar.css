@@ -2,12 +2,7 @@
   position: fixed !important;
   width: 100%;
   z-index: 2;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.209
-  ) !important; /* Aqui você pode ajustar a transparência */
+  background-color: #00000035 !important; /* Aqui você pode ajustar a transparência */
   transition: background-color 0.3s ease !important;
 }
 
@@ -234,4 +229,8 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
   }
+}
+
+footer{
+  background-color: rgb(28, 8, 61);;
 }

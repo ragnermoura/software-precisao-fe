@@ -8,6 +8,7 @@
           </h1>
           <h4 class="subtitle">organização e eficiência para seu ministério</h4>
           <ButtonPrimary />
+          <ButtonDanger />
         </div>
       </div>
     </div>
@@ -29,11 +30,13 @@
 </template>
 <script>
 import ButtonPrimary from "../buttons/primary.vue";
+import ButtonDanger from "../buttons/danger.vue";
 import Topbar from "../../../components/website/topBar/index.vue";
 export default {
   name: "Header",
   components: {
     ButtonPrimary,
+    ButtonDanger,
     Topbar,
   },
 };

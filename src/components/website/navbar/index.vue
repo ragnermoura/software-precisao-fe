@@ -27,16 +27,16 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quem somos</a>
+            <a class="nav-link" href="#quemsomos">Quem somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Planos</a>
+            <a class="nav-link" href="#planos">Planos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Novidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#contato">Contato</a>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-primary btn-login ml-3 mr-3">
