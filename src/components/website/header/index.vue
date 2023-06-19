@@ -6,7 +6,7 @@
           <h1 class="title">
             Turbine a gestão da sua <span class="textIgreja">igreja</span> hoje.
           </h1>
-          <h4 class="subtitle">organização e eficiência para seu ministério</h4>
+          <h4 class="subtitle">organização e eficiência para seu ministério.  </h4>
           <ButtonPrimary />
           <ButtonDanger />
         </div>
@@ -41,6 +41,4 @@ export default {
   },
 };
 </script>
-<style>
-@import url("../../../assets/css/header.css");
-</style>
+
