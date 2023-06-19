@@ -235,6 +235,13 @@
         <img src="../../assets/images/custom.png" class="img-fluid" style="width: auto; height: 200px; z-index: 1; margin-top: 95px; margin-left: 18%;" >
       </div>
     </div>
+
+    <div class="col-md-12 mt-5 text-center" id="planos">
+      <h1 class="text-title">Igrejas que usam</h1>
+      <h4 class="text-subtitle">Confiança </h4>
+    </div>
+    
+    
     
 
     <div class="col-md-12 mt-5 text-center" id="planos">
@@ -246,7 +253,7 @@
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
-            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+
           </div>
           
           <h5 class="card-title price-title">Secretaria</h5>
@@ -293,7 +300,7 @@
         <div class="price-box-tesouraria">
         <div class="card-body">
           <div class="img-area">
-            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+            
           </div>
           
           <h5 class="card-title price-title-tesouraria">Tesouraria</h5>
@@ -333,7 +340,7 @@
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
-            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+            
           </div>
           
           <h5 class="card-title price-title">Ensino & EBD</h5>
@@ -373,7 +380,7 @@
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
-            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+           
           </div>
           
           <h5 class="card-title price-title"><i class="fa fa-circle text-danger"></i> Stream</h5>
@@ -400,7 +407,7 @@
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
-            <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
+           
           </div>
           
           <h5 class="card-title price-title">Quer mais de um?</h5>
@@ -467,8 +474,7 @@ export default {
     Formulario,
     Footer
   },
+  
 };
 </script>
-<style>
-@import url("../../assets/css/navbar.css");
-</style>
+

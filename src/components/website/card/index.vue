@@ -171,6 +171,3 @@ export default {
   }
 };
 </script>
-<style>
-@import url("../../../assets/css/card.css");
-</style>

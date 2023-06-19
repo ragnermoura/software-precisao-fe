@@ -39,9 +39,9 @@
             <a class="nav-link" href="#contato">Contato</a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-primary btn-login ml-3 mr-3">
+            <a href="/login" type="button" class="btn btn-primary btn-login ml-3 mr-3">
               <span class="text-login">Login</span>
-            </button>
+            </a>
           </li>
           <li class="nav-item">
             <img
@@ -89,6 +89,5 @@ export default {
   },
 };
 </script>
-<style>
-@import url("../../../assets/css/navbar.css");
-</style>
+
+

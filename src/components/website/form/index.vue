@@ -61,6 +61,4 @@ export default {
   name: "Form",
 };
 </script>
-<style>
-@import url("../../../assets/css/card.css");
-</style>
+
