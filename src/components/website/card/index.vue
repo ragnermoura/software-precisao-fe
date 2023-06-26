@@ -1,7 +1,7 @@
 <template id="card">
   <div class="row col-md-12 ml-4">
     <div class="col-md-3 mb-5">
-      <div class="card box1">
+      <div class="card box1 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/sec.png" class="img-fluid img-modulo" alt="">
@@ -16,12 +16,14 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Relatórios em tempo Real</strong></p>
             <p class="card-text"><i class="fa fa-check"></i><strong> Integração com Excel</strong></p>
           </p>
-        <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-3 mb-2">
-      <div class="card box2">
+      <div class="card box2 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/tes.png" class="img-fluid img-modulo" alt="">
@@ -36,12 +38,14 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Relatórios em tempo Real</strong></p>
             
           </p>
-        <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card box4">
+      <div class="card box4 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/ebd.png" class="img-fluid img-modulo" alt="">
@@ -55,12 +59,14 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Área do Professor</strong></p>
             <p class="card-text"><i class="fa fa-check"></i><strong> Ambiente do Aluno</strong></p>
           </p>
-        <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card box4">
+      <div class="card box4 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/stream.png" class="img-fluid img-modulo" alt="">
@@ -74,12 +80,14 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Criação de artes para rede sociais</strong></p>
             
           </p>
-          <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-3 mb-2">
-      <div class="card box3">
+      <div class="card box3 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/visi.png" class="img-fluid img-modulo" alt="">
@@ -94,14 +102,16 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Integração com Excel</strong></p>
         
           </p>
-          <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
    
 
     <div class="col-md-3">
-      <div class="card box4">
+      <div class="card box4 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/membros.png" class="img-fluid img-modulo" alt="">
@@ -115,13 +125,15 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Ambiente de estudo</strong></p>
             <p class="card-text"><i class="fa fa-check"></i><strong> Notificações</strong></p>
           </p>
-          <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="col-md-3">
-      <div class="card box4">
+      <div class="card box4 fet">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/pastoral.png" class="img-fluid img-modulo" alt="">
@@ -135,14 +147,16 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Criação de ministrações</strong></p>
             <p class="card-text"><i class="fa fa-check"></i><strong> Formador de Liderança</strong></p>
           </p>
-          <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>
 
   
     <div class="col-md-3">
-      <div class="card box4" style="background-color: rgb(20, 198, 121); border: 3px solid rgb(12, 144, 87)">
+      <div class="card box4 fet" style="background-color: rgb(20, 198, 121); border: 3px solid rgb(12, 144, 87)">
         <div class="card-body">
           <div class="img-area">
             <img src="../../../assets/images/iot.png" class="img-fluid img-modulo" alt="">
@@ -156,7 +170,9 @@
             <p class="card-text"><i class="fa fa-check"></i><strong> Alerta de desconhecidos</strong></p>
             <p class="card-text"><i class="fa fa-check"></i><strong> Integração de Som/Luz por WiFi</strong></p>
           </p>
-        <Buttonprimary/>
+          <div class="card-button">
+            <Buttonprimary/>
+          </div>
         </div>
       </div>
     </div>

@@ -228,18 +228,18 @@
         <p class="mt-3 text-simple">
           Nosso objetivo é fornecer uma plataforma flexível e adaptável que atenda às necessidades únicas da sua igreja. Com o Software Precisão, você está no controle e pode personalizar cada aspecto da plataforma para se adequar à sua visão e estilo de trabalho.
         </p>
-        <p class="mt-3 text-simple" style="z-index: 99; position: absolute;">
+        <p class="mt-3 text-simple">
           Entre em contato conosco hoje mesmo para saber mais sobre como o Software Precisão pode ajudar a sua igreja evangélica e como você pode aproveitar ao máximo a personalização disponível. Estamos ansiosos para ajudá-lo a construir uma experiência única e relevante para sua congregação!
         </p>
 
-        <img src="../../assets/images/custom.png" class="img-fluid" style="width: auto; height: 200px; z-index: 1; margin-top: 95px; margin-left: 18%;" >
+        <img src="../../assets/images/custom.png" class="img-fluid tinta" style="width: auto; height: 200px; z-index: 1; margin-top: 95px; margin-left: 18%;" >
       </div>
     </div>
 
-    <div class="col-md-12 mt-5 text-center" id="planos">
+    <!-- <div class="col-md-12 mt-5 text-center" id="planos">
       <h1 class="text-title">Igrejas que usam</h1>
       <h4 class="text-subtitle">Confiança </h4>
-    </div>
+    </div> -->
     
     
     
@@ -249,7 +249,7 @@
       <h4 class="text-subtitle">Confira preços </h4>
     </div>
     <div class="row col-md-12 mt-5 area-price">
-      <div class="col-md-3">  
+      <div class="col-md-4 area-price-box">  
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
@@ -291,12 +291,15 @@
         
           </p>
           <div>
-        <button type="button" class="btn btnSecondary">comprar</button>
+            <div class="card-button">
+            <button type="button"  class="btn btnSecondary">comprar</button>
+          </div>
+        
     </div>
         </div>
       </div>
     </div>
-    <div class="col-md-3" style="margin-left: 80px;">  
+    <div class="col-md-4 area-price-box">  
         <div class="price-box-tesouraria">
         <div class="card-body">
           <div class="img-area">
@@ -332,11 +335,14 @@
             <hr class="line">
             
           </p>
-          <button type="button" class="btn btnSecondary">comprar</button>
+          <div class="card-button">
+            <button type="button"  class="btn btnSecondary">comprar</button>
+          </div>
+          
         </div>
       </div>
     </div>
-    <div class="col-md-3" style="margin-left: 80px;">  
+    <div class="col-md-4 area-price-box">  
         <div class="price-box">
         <div class="card-body">
           <div class="img-area">
@@ -372,12 +378,14 @@
             <hr class="line">
         
           </p>
-          <button type="button" class="btn btnSecondary">comprar</button>
+          <div class="card-button">
+            <button type="button"  class="btn btnSecondary">comprar</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 mt-3">  
-        <div class="price-box">
+    <div class="col-md-4 area-price-box mt-3">  
+        <div class="price-box-especialista">
         <div class="card-body">
           <div class="img-area">
            
@@ -399,12 +407,14 @@
            
         
           </p>
-          <button type="button" class="btn btnSecondary">comprar</button>
+          <div class="card-button">
+            <button type="button"  class="btn btnSecondary">comprar</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-3 mt-3" style="margin-left: 80px;">  
-        <div class="price-box">
+    <div class="col-md-4 area-price-box mt-3">  
+        <div class="price-box-especialista">
         <div class="card-body">
           <div class="img-area">
            
@@ -429,7 +439,9 @@
            
         
           </p>
-          <button type="button" class="btn btnSecondary">Falar com especialista</button>
+          <div class="card-button">
+            <button type="button"  class="btn btnSecondary">comprar</button>
+          </div>
         </div>
       </div>
     </div>

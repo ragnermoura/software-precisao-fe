@@ -15,7 +15,7 @@
     <div class="faixa">
       <div class="container">
         <!-- <h5 class="title-faixa"> Nossos parceiros e integradores</h5> -->
-        <div class="row">
+        <div class="row parceiros">
           <div class="col-md-2"><img src="../../../assets/images/parceiro1.png" class="img-parceiro" alt=""></div>
           <div class="col-md-2"><img src="../../../assets/images/parceiro2.png" class="img-parceiro" alt=""></div>
           <div class="col-md-2"><img src="../../../assets/images/parceiro3.png" class="img-parceiro" alt=""></div>
