@@ -289,7 +289,7 @@ ul {
   margin-right: auto;
 }
 
-.rocket-login{
+.rocket-login {
   width: 500px !important;
   justify-content: center;
   align-items: center;
@@ -297,7 +297,6 @@ ul {
   margin-right: auto;
   display: block;
 }
-
 
 .rocket-recovery {
   width: 400px !important;
@@ -514,6 +513,24 @@ ul {
   text-transform: uppercase;
 }
 
+.btnSecondary-price{
+  background-color: #f2750f;
+  border: 1px solid #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.card-button-price{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
 .btnDanger {
   background-color: #d01b1b;
   border: 1px solid #fff;
@@ -561,7 +578,8 @@ ul {
 
 .area-price {
   justify-content: center;
-  margin-left: -44px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .price {
@@ -582,12 +600,14 @@ ul {
   width: 380px !important;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height: 100%;
+  height: 980px;
+  position: relative;
 }
 
 .button-price {
   margin-top: 35%;
   bottom: 0 !important;
+  width: 60px;
 }
 
 .button-price-final {
@@ -604,7 +624,18 @@ ul {
   background-color: #260b52;
   border: 5px solid #490989;
   width: 380px !important;
-  height: 100%;
+  height: 980px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.price-box-especialista{
+  background-color: #260b52;
+  border: 5px solid #490989;
+  width: 380px !important;
+  height: 650px;
+  position: relative;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -942,10 +973,34 @@ width: 100px;
   font-weight: 500;
 }
 
+.fet{
+  height: 450px;
+  position: relative;
+}
+
+.card-button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+}
+
+
+
 @media (max-width: 768px) {
   /* Estilos para telas com largura máxima de 768 pixels */
   .jumbotron {
     height: 700px;
+  }
+
+  .price-box {
+    width: 320px !important;
+  }
+
+  .area-price-box {
+    margin-bottom: 30px;
   }
 }
 
@@ -986,6 +1041,51 @@ width: 100px;
   width: 60%;
 }
 
+  .price-box {
+    width: 320px !important;
+  }
+
+  .area-price-box {
+    margin-bottom: 30px;
+  }
+
+  .price-box-tesouraria {
+    width: 320px !important;
+  }
+
+  .price-box-especialista{
+    width: 320px !important;
+  }
+
+  .tinta {
+    display: none;
+  }
+
+  .img-parceiro {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+  }
+
+  .parceiros {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .textIgreja {
+  }
+
+  .faixa-contato {
+    height: 960px;
+  }
 }
 
 .TopNavbar {
@@ -1257,7 +1357,7 @@ footer {
   color: #f3822e;
 }
 
-.iconMenu{
+.iconMenu {
   width: 50px;
   margin-left: auto;
   margin-right: auto;
