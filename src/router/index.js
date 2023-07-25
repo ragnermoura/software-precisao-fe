@@ -7,6 +7,7 @@ import RecoveryTwoView from "../views/dashboard/auth/RecoveryTwoView.vue";
 import CodeView from "../views/dashboard/auth/CodeView.vue";
 import ProfileView from "../views/dashboard/auth/ProfileView.vue";
 import MenuView from "../views/dashboard/MenuView.vue";
+import PaymentView from "../views/payment/PaymentView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +51,10 @@ const router = createRouter({
       path: "/menu",
       name: "menu",
       component: MenuView,
+    },{
+      path: "/payment",
+      name: "payment",
+      component: PaymentView,
     },
   ],
 });
